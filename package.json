@@ -1,0 +1,14 @@
+
+
+{
+  "name": "marketplace",
+  "version": "0.1.0",
+  "description": "Multi-vendor e-commerce marketplace",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "keywords": ["ecommerce", "marketplace", "nextjs", "nestjs"],
+  "author": "IceFox",
+  "license": "MIT",
+  "packageManager": "pnpm@12.9.1"
+}

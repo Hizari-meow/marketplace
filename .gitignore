@@ -1,0 +1,53 @@
+# ==============================================
+# DEPENDENCIES (thư viện - tải lại được, không cần commit)
+# ==============================================
+node_modules/
+.pnpm-store/
+
+# ==============================================
+# BUILD OUTPUT (code đã build - sinh lại được)
+# ==============================================
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# ==============================================
+# ENVIRONMENT VARIABLES (mật khẩu, API key - TUYỆT ĐỐI không commit!)
+# ==============================================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==============================================
+# LOGS (file log - không cần commit)
+# ==============================================
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+
+# ==============================================
+# EDITOR / OS FILES (rác của hệ điều hành và editor)
+# ==============================================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# ==============================================
+# TESTING & COVERAGE
+# ==============================================
+coverage/
+.nyc_output/
+
+# ==============================================
+# MISC
+# ==============================================
+.cache/
+tmp/
+temp/
